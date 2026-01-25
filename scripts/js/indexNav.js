@@ -3,10 +3,10 @@ function main(){
     profileBtn.addEventListener("click", goToProfile);
 
     const midTermBtn = document.getElementById("midTermBtn")
-    profileBtn.addEventListener("click", goToMidterm);
+    midTermBtn.addEventListener("click", goToMidterm);
 
     const finalTermBtn = document.getElementById("finalTermBtn")
-    profileBtn.addEventListener("click", goToFinalTerm);
+    finalTermBtn.addEventListener("click", goToFinalTerm);
 }
 
 
